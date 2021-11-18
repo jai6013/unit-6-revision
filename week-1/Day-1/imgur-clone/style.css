@@ -1,0 +1,194 @@
+body{
+    font-size: 100%;
+    font-family: Proxima Nova Regular,Helvetica Neue,Helvetica,Arial,sans-serif;
+    background-color: #2e3035;
+    color: #fff;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.homeCover{
+    background: url(https://s.imgur.com/desktop-assets/desktop-assets/homebg.e52b5cdf24f83bcd55f9f1318855f2ef.png) no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    background-color: #474a51;
+    padding-bottom: 76px;
+    opacity: 1;
+    transition: opacity .5s,box-shadow .4s;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px;
+    align-items: center;
+    top: 0;
+    width: 100%;
+    position: fixed;
+}
+.imgNewPost{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.imgSpan{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+    background-color: #1bb76e;
+    border: none;
+    padding: 8px;
+    border-radius: 5px;
+    width: 7vw;
+    color: white;
+    font-weight: 700;
+}
+.searchBar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.barImg{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background: hsla(0,0%,100%,.25);
+    width: 35vw;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius:5px;
+}
+::placeholder{
+    color:rgb(218, 203, 247);
+    font-size: 15px;
+    font-weight: 700;
+}
+.barImg > input{
+    background:transparent;
+    border: none;
+    outline: none;
+    color: rgb(218, 203, 247);;
+}
+.igss{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+.firstBtn{
+    background: #6432f9;
+    box-shadow: 0 3px 4px rgb(0 0 0 / 12%);
+    padding: 0 10px 0 9px;
+    overflow: hidden;
+    margin: auto 0;
+    line-height: 35px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 15px;
+}
+.secondBtn{
+    margin: auto 24px auto 8px;
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;
+    color: #fff;
+    text-shadow: 0 14px 15px rgb(27 28 30 / 31%);
+    white-space: nowrap;
+    vertical-align: middle;
+    background: transparent;
+    border: none;
+}
+.thirdBtn{
+    text-align: center;
+    height: 35px;
+    display: inline-block;
+    padding: 7px 14px 10px 9px;
+    text-transform: none;
+    user-select: none;
+    touch-action: manipulation;
+    border-radius: 3px;
+    font-size: 15px;
+    font-weight: 700;
+    position: relative;
+    width: auto;
+    background-color: #1bb76e;
+    box-shadow: 0 6px 10px 0 rgb(27 28 30 / 31%);
+    color: #fff;
+    white-space: nowrap;
+    border: none;
+    border-radius: 5px;
+}
+
+.messageWelcome{
+    margin-top: 80px !important;
+    font-size: 24px;
+    letter-spacing: .6px;
+    color: #aed8ea;
+    text-align: center;
+    margin-top: 12px;
+    min-height: 34px;
+    position: relative;
+}
+.exploreMoreContainer{
+    padding: 10px;
+    width: 80vw;
+    margin: auto;
+}
+.exmore{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+
+.exmore>div{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1;
+    letter-spacing: 1.3px;
+    text-align: left;
+    color: #fff;
+    text-transform: uppercase;
+}
+#exploreMoreContent{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    gap: 10px;
+}
+.tagsImg{
+    width: 100px;
+    height: 70px;
+    border-radius: 5px;
+    object-fit: cover;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 12px;
+    gap: 5px;
+    cursor: pointer;
+}
+.card >div{
+    padding: 5px;
+}
