@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="marvelCharacters.css">
+        <title>Marvel</title>
+    </head>
+    <body>
+        <div class="container">
+            <a id="link" href="Comics.html">Marvel Comics</a>
+            <img 
+                src="https://vistapointe.net/images/marvel-icon-3.jpg"
+                alt=""
+            />
+            <input
+                placeholder="Search Characters"
+                oninput="throttle()"
+                type="text"
+                id="input"
+            />
+
+            <div class="output" id="output"></div>
+        </div>
+    </body>
+</html>
+<script src="marvelCharacters.js"></script>

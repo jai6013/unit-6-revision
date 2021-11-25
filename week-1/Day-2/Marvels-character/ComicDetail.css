@@ -1,0 +1,48 @@
+body {
+    background-color: black;
+    background-size: cover;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    padding-top: 50px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+img {
+    width: 250px;
+    height: 250px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.output {
+    margin: auto;
+    border: 1px solid white;
+    width: 60%;
+    color: white;
+    font-weight: 500;
+    font-size: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    flex-wrap: wrap;
+    padding: 10px;
+    box-shadow: 0 0 17px 3px #ff1f01,0 0 4px 2px #ff1f01;
+}
+
+#link {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    padding: 5px;
+    position: absolute;
+    bottom: auto;
+    
+    box-shadow: 0 0 17px 3px #ff1f01,0 0 4px 2px #ff1f01;
+    cursor: pointer;
+} 
