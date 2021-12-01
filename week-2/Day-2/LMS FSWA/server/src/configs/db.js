@@ -1,0 +1,2 @@
+const mongoose = require("mongoose")
+module.exports = () => mongoose.connect("mongodb+srv://gab-clone:gab123@gab-clone.1lwve.mongodb.net/test?authSource=admin&replicaSet=atlas-2sfxkk-shard-0&readPreference=primary&appname=MongoDB%20Compass&ssl=true")

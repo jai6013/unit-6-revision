@@ -1,0 +1,255 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  min-height: 50px;
+  background-color: darkslategray;
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 50px;
+  color: white;
+  font-size: 32px;
+  align-items: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 20px;
+}
+
+.dashboard-body {
+  display: flex;
+}
+
+.admin-menu {
+  width: 300px;
+  margin-right: 20px;
+  /* display: flex;
+  align-items: center;
+  flex-direction: column; */
+  /* background-color: darkgrey; */
+}
+
+.admin-menu button {
+  width: 300px;
+  border: 1px;
+  outline: none;
+  background-color: darkslategray;
+  height: 40px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-bottom: 5px;
+  font-size: 18px;
+  padding: 10px auto;
+  color: white;
+}
+
+.admin-menu button:hover {
+  background-color: white;
+  color: black;
+}
+
+.table-area {
+  /* flex-grow: 1; */
+  /* background-color: deepskyblue; */
+  margin-right: 20px;
+}
+.title{
+  text-transform: capitalize;
+}
+.student-table {
+  /* background-color: pink !important; */
+  justify-content: center;
+  justify-self: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  border-spacing: 0px !important;
+  text-align: center;
+  border-collapse: collapse;
+  box-shadow: 4px 4px 5px rgba(128, 128, 128, 0.534);
+}
+
+.student-table th,
+.student-table td {
+  width: 150px !important;
+  background-color: whitesmoke;
+  overflow: hidden;
+  padding: 10px;
+}
+
+.student-table tr:hover {
+  cursor: pointer;
+  background-color: rgba(78, 133, 133) !important;
+}
+
+.student-table th {
+  background-color: darkslategray;
+  color: white;
+  border-spacing: 0px;
+}
+
+.student-table tr {
+  border-bottom: 1px solid darkslategray;
+}
+
+.extraMenu {
+  position: relative;
+  cursor: pointer;
+}
+
+.miniMenu {
+  position: absolute;
+  background-color: honeydew;
+  box-shadow: 3px 3px 5px grey;
+  color: black;
+  width: 100px;
+}
+
+.miniMenu div {
+  padding: 5px 10px;
+  border-bottom: 2px solid darkslategray;
+  cursor: pointer;
+}
+
+.miniMenu div:hover {
+  cursor: pointer;
+  background-color: lightgray;
+}
+
+.formDiv {
+  display: flex;
+  /* background-color: blanchedalmond; */
+  width: 100%;
+  height: max-content;
+}
+
+.studentForm {
+  margin: auto;
+  /* background-color: yellow; */
+  display: flex;
+  flex-direction: column;
+}
+
+.studentForm input,
+.studentForm select {
+  background-color: transparent;
+  width: 500px;
+  height: 30px;
+  border: 1px solid black;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  border-radius: 5px;
+  text-indent: 10px;
+}
+
+.studentForm input:hover,
+.studentForm input:focus,
+.studentForm select:focus,
+.studentForm select:hover {
+  box-shadow: 1px 1px 5px green;
+}
+
+.studentForm button {
+  max-width: 400px;
+  font-size: 16px;
+  margin: auto;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  border: 1px solid black;
+}
+
+.studentForm button:hover {
+  box-shadow: 1px 1px 5px rgb(37, 211, 37);
+  border: none;
+  transform: scale(1.1);
+  background-color: darkcyan;
+  color: white;
+  font-weight: 600;
+}
+
+.deleteBtn {
+  outline: none;
+  border: 1px solid darkslategray;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.deleteBtn:hover {
+  background-color: darkslategray;
+  color: white;
+  transform: scale(1.09);
+}
+
+.signin-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: darkslategray;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+
+.siginin-title {
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.signin-box form {
+  display: flex;
+  flex-direction: column;
+  background-color: darkslategrey;
+  box-shadow: 1px 1px 15px rgb(32, 48, 48);
+  padding: 20px;
+  gap: 20px;
+  width: 450px;
+}
+
+.signin-box form input, .signin-box form select {
+  height: 50px;
+  padding: 0px;
+  text-indent: 10px;
+  /* border: 1px solid black; */
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  box-shadow: 3px 3px 10px rgba(17, 17, 17, 0.808);
+  background-color: rgb(91, 156, 156);
+  font-size: 18px;
+  box-sizing: border-box;
+}
+
+.signin-box form option {
+  background-color: rgb(149, 224, 224);
+  font-size: 16px;
+  color: rgb(32, 48, 48);
+}
+
+.signin-box form input:focus, .signin-box form select:focus {
+  outline: 2px solid whitesmoke;
+  box-shadow: 0px 0px 10px rgba(245, 245, 245, 0.411);
+  color: white;
+}
+
+.signin-box form input::placeholder {
+  color: black;
+}
+
+/* Student Dashboard */
+.student-dashboard-body {
+  display: flex;
+  justify-content: center;
+}
