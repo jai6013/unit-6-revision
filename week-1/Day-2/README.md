@@ -1,27 +1,28 @@
 # MARVEL APP
-Here you can search any marvel character and best comics.
----
-### Tech stacks used :
-HTML, CSS, JavaScript
+Here you can search any marvel character and can see best comics and click to view detailed info about that comic.
 
 ### Some Snapshots :
 
 #### Home Page:
-<img width="600px" src="https://drive.google.com/file/d/1N7um8NDC9Vr6-1-975eMU6thg5HdF6Mk/view?usp=sharing"/>
+<br/>
+<img src="https://github.com/jai6013/unit-6-revision/blob/master/week-1/Day-2/Screenshot%20(373).png?raw=true"/>
 
 #### Search Page:
-<img width="600px" src="https://drive.google.com/file/d/1XyAeB3fg4NpgW68D38vU9WbJb5gLJUsa/view?usp=sharing"/>
+<br/>
+<img src="https://github.com/jai6013/unit-6-revision/blob/master/week-1/Day-2/Screenshot%20(374).png?raw=true"/>
 
 #### Comics Page:
-<img width="600px" src="https://drive.google.com/file/d/1a7QcoQPcmE3nUBvDJK3dkKF144w7UM8k/view?usp=sharing"/>
+<br/>
+<img src="https://github.com/jai6013/unit-6-revision/blob/master/week-1/Day-2/Screenshot%20(375).png?raw=true"/>
 
-#### Comic Page:
-<img width="600px" src="https://drive.google.com/file/d/1tVHOraetb1Y79XOozhuXQ-gsLWOVVkYT/view?usp=sharing"/>
+#### Detailed Comic Page:
+<br/>
+<img src="https://github.com/jai6013/unit-6-revision/blob/master/week-1/Day-2/Screenshot%20(376).png?raw=true"/>
 
 
 ### Installation and Setup Instructions
 
-git clone remote
-run live server with marvelCharacters.html
-
-<hr/>
+git clone remote add origin
+<br/>
+Run live server with marvelCharacters.html
+Else run the html file path.
